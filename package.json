@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "install-prod": "npm install --omit=dev",
     "start": "node app.js"
   },
   "keywords": [],
