@@ -52,7 +52,7 @@ app.get('/api-docs', (req, res) => {
   res.sendFile(path.join(__dirname, 'api-docs.html'));
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3306;
 const HOST = process.env.HOST || '192.168.72.130';
 
 app.listen(PORT, HOST, () => {
