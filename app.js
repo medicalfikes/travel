@@ -1,5 +1,5 @@
 require('dotenv').config()
-const db = require('./config/db');
+const pool = require('./config/db');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
